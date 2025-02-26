@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hasan Akyüz'ün Web Sayfası</title>
+    <meta name="description" content="Hasan Akyüz'ün Web Sayfası">
+    <meta name="keywords" content="Hasan, Akyüz">
+
+    <link rel="stylesheet" href="sTyle.css">
+</head>
+
+<body>
+    <div id="sayfa">
+        <header id="banner">
+            <div id="logo">
+                <img src="Resimler/ben.jpg" alt="Hasan Akyüz" title="Hasan Akyüz" width="100px" height="80px">
+            </div>
+            <div id="sosyal"><a href="https://github.com/hasanakyuz350"><img id="ikon"
+                        src="Resimler/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs"></a>
+                <a href="https://www.linkedin.com/in/hasan-akyuz/"><img id="ikon" src="Resimler/LinkedIn.png"
+                        alt="LinkedIn" title="LinkedIn"></a>
+            </div>
+        </header>
+        <nav id="anamenu">
+            <ul>
+                <li><a href="main.html">Ana Menü</a></li>
+                <li><a href="benkimim.html">Ben Kimim?</a></li>
+                <li><a href="ozgecmis.html">Öz Gecmis</a></li>
+                <li><a href="iletisim.html">İleTisim</a></li>
+            </ul>
+        </nav>
+        <article id="icerik">
+            <table>
+                <tr>
+                    <td>
+                        <hr width="200px">
+                    </td>
+                    <td>
+                        <h2>Konu Baslıkları</h2>
+                    </td>
+                    <td>
+                        <hr width="200px">
+                    </td>
+                </tr>
+            </table>
+            <ul>
+                <li>Yapay Zeka Nedir?</li>
+                <a href="yapayzeka.html">Detaylı Bilgi İcin Tıklayınız!</a>
+                <li>Makine Öğrenmesi Nedir?</li>
+                <a href="makineogrenmesi.html">Detaylı Bilgi İcin Tıklayınız!</a>
+                <li>Derin Öğrenme Nedir?</li>
+                <a href="derinogrenme.html">Detaylı Bilgi İcin Tıklayınız!</a>
+                <li>Doğal Dil İşleme (NLP) Nedir?</li>
+                <a href="dilisleme.html">Detaylı Bilgi İcin Tıklayınız!</a>
+                <li>Yapay Sinir Ağları (ANN) Nedir?</li>
+                <a href="siniraglari.html">Detaylı Bilgi İcin Tıklayınız!</a>
+
+            </ul>
+        </article>
+        <aside id="yanmenu">
+            <table>
+                <tr>
+                    <td>
+                        <hr id="baslikhr">
+                    </td>
+                    <td>
+                        <h2>Öneri Ve Görüsler</h2>
+                    </td>
+                    <td>
+                        <hr id="baslikhr">
+                    </td>
+                </tr>
+            </table>
+            <form name="form">
+                <table id="table1">
+                    <tr>
+                        <td class="tabloyapilandir">İsim</td>
+                        <td><input type="text" name="username" required autocomplete="on"></td>
+                    </tr>
+                    <tr>
+                        <td class="tabloyapilandir">Soyisim</td>
+                        <td><input type="text" name="userlastname" required autocomplete="on"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefon Numarası</td>
+                        <td>
+                            <select>
+                                <option selected></option>
+                                <option>+90</option>
+                            </select>
+                            <input name="userphonenumber" type="tel" required
+                                pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" placeholder="5xx xxx xx xx">
+                        </td>
+                    </tr>
+                    <!--Bu 'pattern' yapısı belirli bir formatta (örn. "555 123 45 67") giriş yapılmasını zorunlu kılar.-->
+                    <tr>
+                        <td class="tabloyapilandir">Mail</td>
+                        <td><input type="email" name="usermail" required autocomplete="on" placeholder="abc@gmail.com">
+                        </td>
+                    </tr>
+                </table>
+                <table id="table2">
+                    <tr>
+                        <td colspan="20">
+                            <hr id="govdehr">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tabloyapilandir">Ne Derece <br> Memnun Kaldınız?</td>
+                        <td><input type="radio" name="uservieww" value="bad"><img src="Resimler/uzgun.jpg"></td>
+                        <td><input type="radio" name="uservieww" value="middle"><img src="Resimler/noTr.jpg"></td>
+                        <td><input type="radio" name="uservieww" value="good"><img src="Resimler/memnun.jpg"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <hr id="govdehr">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"><textarea name="userfeedback" cols="50" rows="10"
+                                placeholder=" Mesaj yaz..."></textarea></td>
+                    </tr>
+                </table>
+                <input class="buttonyapilandir" type="submit" value="Gönder">
+            </form>
+        </aside>
+        <footer id="asagimenu">
+            <a href="main.html">Ana Menü |</a>
+            <a href="benkimim.html">Ben Kimim? |</a>
+            <a href="ozgecmis.html">Öz Gecmis |</a>
+            <a href="iletisim.html">İleTisim</a>
+            <p>Tüm hakları saklıdır.</p>
+            <p>Hasan Akyüz &copy 2025</p>
+        </footer>
+    </div>
+</body>
+
+</html>
