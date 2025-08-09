@@ -3,6 +3,8 @@
 Bu proje, HTML ve CSS kullanılarak oluşturulmuş, kişisel tanıtım ve yapay zeka konularına odaklanan bir web sitesidir.
 Site, temel HTML yapıları ve CSS stillerinin uygulanması ile hazırlanmıştır.
 
+---
+
 🚀 Özellikler
 
 - **Çok sayfalı yapı (HTML ile bölümlendirilmiş içerikler)
@@ -10,6 +12,8 @@ Site, temel HTML yapıları ve CSS stillerinin uygulanması ile hazırlanmışt�
 - **Resim ve görsel içerik desteği
 - **Bağlantılar ve navigasyon menüsü
 - **Modern, basit ve düzenli sayfa tasarımı
+
+---
 
 📂 Proje Yapısı
 
@@ -31,10 +35,14 @@ HTML-CSS Uygulaması
 
 - **.vscode/launch.json 
 
+---
+
 🛠 Kullanılan Teknolojiler
 
 - **HTML5
 - **CSS3
+
+---
 
 📌 Notlar
 - **Proje tamamen statik bir yapıya sahiptir, arka uç (backend) kodu içermez.
